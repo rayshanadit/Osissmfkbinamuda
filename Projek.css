@@ -1,0 +1,358 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open sans', sans-serif
+}
+
+.wrapper {
+    max-Width: 1100px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.lo-me {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 80px;
+    font-family: Courier;
+    margin-right: auto;
+}
+
+.logo a {
+    color: #364f6b;
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    border-bottom: 1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 0px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color:#3f72af;
+    transform: rotate(2deg);
+}
+
+section {
+    width: 100%;
+   height: 430px;
+    margin: auto;
+    margin-bottom: 10%;
+    display: flex;
+    gap: 50px;
+}
+
+.deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+.tbl-biru {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tbl-biru:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #fc5185;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #364f6b;
+    text-decoration: none;
+}
+
+.pink {
+    margin: 20px 0px 20px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.biru {
+    margin:20px 0px 20px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+#About-osis {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.kolom {
+    width: 100%;
+    margin-top: 30px;
+    align-content: center;
+} 
+
+.kolom-1 {
+    width: 100%;
+    margin-top: 150px;
+    align-content: center;
+} 
+
+
+.osis-list {
+    margin-bottom: 10px;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    display: flex;
+    border-bottom: 3px solid #364f6b;
+}
+
+.foto-osis {
+    width: 50%;
+    margin: auto;
+}
+
+.foto-osis img {
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #364f6b;
+}
+
+.foto-osis p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    color: #364f6b;
+}
+
+.jabatan {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.osis-list-1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foto-osiss {
+    width: 25%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.foto-osiss img {
+    max-width: 150px;
+    width: 100%;
+    border: 5px solid #364f6b;
+    border-radius: 50%;
+    
+}
+
+.foto-osiss p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 18px;
+    text-align: center;
+    color: #364f6b;
+}
+
+#Contact {
+    background: #dedede;
+    margin-top: 5%;
+    padding: 10px 0px 10px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:#364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+#Copyright {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 576px) and (min-width:450px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    menu {
+        float: none;
+    }
+
+    .lo-me {
+       justify-content: center;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    section {
+        flex-wrap: wrap;
+    }
+
+    .sct-img {
+        justify-content: center;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        max-width: 500px;
+        width: 100%;
+    } 
+
+    .kolom {
+        padding: 0;
+        text-align: center;
+    }
+
+    .kolom-1 {
+        text-align: center;
+        margin-top: 300px;
+    }
+
+    .deskripsi {
+        font-size: large;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-top: 10px;
+        font-weight: bold;
+        line-height: 10px;
+    }
+
+    #information {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #About-osis {
+        margin-top: 400px;
+    }
+    
+    .foto-osiss {
+        width: 40%;
+       margin-right: 20px;
+    } 
+
+    #Contact { 
+        padding: 0 10px;
+    }
+
+     .footer  {
+        width: 100%;
+     }
+
+     .footer-section {
+        width: 50%;
+     }
+
+     h3 {
+        font-size: 20px ;
+        font-weight: 800;
+        margin-bottom: 10px;
+        line-height: 50px;
+        margin-bottom: 5px;
+     }
+}
+
+@media screen and (max-width:449) {
+    .wrapper {
+        width: 90%;
+    }
+}
+
