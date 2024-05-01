@@ -263,9 +263,10 @@ h3 {
     margin-top: 10px;
 }
 
-@media screen and (max-width: 576px) and (min-width:450px) {
+@media screen and (max-width: 762px) {
     .wrapper {
         width: 100%;
+        margin: auto;
     }
 
     menu {
@@ -274,6 +275,7 @@ h3 {
 
     .lo-me {
        justify-content: center;
+       align-content: center;
     }
 
     .logo {
@@ -288,8 +290,7 @@ h3 {
     .sct-img {
         justify-content: center;
         text-align: center;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin: 0 10%;
         max-width: 500px;
         width: 100%;
     } 
