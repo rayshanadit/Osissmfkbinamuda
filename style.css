@@ -12,15 +12,16 @@ body {
 }
 
 .wrapper {
-    max-Width: 1100px;
+    max-Width: 1500px;
     width: 100%;
-    margin: auto;
+    margin: 0;
     position: relative;
 }
 
 .lo-me {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 30px;
 }
 
 .logo {
@@ -62,7 +63,7 @@ nav ul li a {
     color: black;
     font-weight: bold;
     text-align: center;
-    padding: 0px 16px 0px 0px;
+    padding: 0px 16px 0px 16px;
     text-decoration: none;
 }
 
@@ -78,6 +79,11 @@ section {
     margin-bottom: 10%;
     display: flex;
     gap: 50px;
+}
+
+.sct-img {
+    margin-left: 50px;
+    width: 50%;
 }
 
 .deskripsi {
@@ -159,6 +165,7 @@ a.tbl-pink:hover {
     width: 100%;
     margin-top: 150px;
     align-content: center;
+    margin-left: 30px;
 } 
 
 
