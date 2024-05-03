@@ -281,8 +281,8 @@ h3 {
     }
 
     .lo-me {
-       justify-content: center;
-       align-content: center;
+        justify-content: center;
+        align-content: center;
     }
 
     .logo {
@@ -292,6 +292,9 @@ h3 {
 
     section {
         flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+
     }
 
     .sct-img {
@@ -309,7 +312,7 @@ h3 {
 
     .kolom-1 {
         text-align: center;
-        margin-top: 300px;
+        margin-top: 400px;
     }
 
     .deskripsi {
@@ -329,7 +332,7 @@ h3 {
     }
 
     #About-osis {
-        margin-top: 400px;
+        margin-top: 350px;
     }
     
     .foto-osiss {
@@ -358,9 +361,33 @@ h3 {
      }
 }
 
-@media screen and (max-width:449) {
+@media screen and (max-width: 450px) {
     .wrapper {
-        width: 90%;
+        width: 450px;
+    }
+
+    nav {
+        width: 450px;
+    }
+
+    section {
+        justify-content: center;
+        margin: 0;
+    }
+
+    .sct-img {
+        width: 100%; 
+    }
+
+    .kolom {
+      margin: 0;
+    }
+
+    .kolom-1 {
+        margin-top: 500px;
+    }
+
+    .deskripsi {
+        margin-bottom: 10px;
     }
 }
-
