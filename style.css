@@ -280,6 +280,10 @@ h3 {
         float: none;
     }
 
+    nav {
+        margin-bottom: 150px;
+    }
+
     .lo-me {
         justify-content: center;
         align-content: center;
@@ -403,7 +407,7 @@ h3 {
 
     #Contact { 
         width: 500px;
-        padding: 0;
+        padding: 10;
     }
 
      .footer  {
