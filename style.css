@@ -368,7 +368,11 @@ h3 {
 
     nav {
         margin-bottom: 150px;
-        width: 500px; 
+        width: 500px;
+    }
+
+    .lo-me {
+        margin: 0;
     }
 
     section {
@@ -394,23 +398,9 @@ h3 {
 
     #Contact { 
         width: 500px;
-        padding: 0 20px;
     }
 
      .footer  {
-        max-width: 500px;
         width: 100%;
-     }
-
-     .footer-section {
-        width: 50%;
-     }
-
-     h3 {
-        font-size: 20px ;
-        font-weight: 800;
-        margin-bottom: 10px;
-        line-height: 50px;
-        margin-bottom: 5px;
-     }
-}
+    }
+}   
