@@ -367,7 +367,8 @@ h3 {
     }
 
     nav {
-        width: 500px;
+        margin-bottom: 150px;
+        width: 500px; 
     }
 
     section {
