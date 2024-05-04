@@ -287,6 +287,7 @@ h3 {
     .lo-me {
         justify-content: center;
         align-content: center;
+        margin: 0;
     }
 
     .logo {
@@ -380,6 +381,10 @@ h3 {
         width: 100%;
     }
 
+    nav ul li a {
+        font-size: 20px;
+    }
+
     .lo-me {
         margin: 0;
     }
@@ -407,7 +412,7 @@ h3 {
 
     #Contact { 
         width: 500px;
-        padding: 10;
+        padding: 0;
     }
 
      .footer  {
